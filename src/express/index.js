@@ -4,7 +4,7 @@ const express = require('express');
 const moduleTech = require('./moduleTech');
 
 const app = express();
-const port = 3004;
+const port = 3005;
 const cors=require('cors');
 app.use(cors());
 

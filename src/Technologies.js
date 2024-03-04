@@ -7,7 +7,7 @@ const Technologies = () => {
   useEffect(() => {
     const fetchTechnologies = async () => {
       try {
-        const response = await fetch('http://localhost:3004/technologies');
+        const response = await fetch('http://localhost:3005/technologies');
         
         if (!response.ok) {
           throw new Error(`Error fetching technologies: ${response.statusText}`);
